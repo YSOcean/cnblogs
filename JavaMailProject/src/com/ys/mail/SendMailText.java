@@ -75,7 +75,8 @@ public class SendMailText {
 		msg.setContent("简单的纯文本邮件！", "text/html;charset=UTF-8");
 		//设置邮件的发送时间,默认立即发送
 		msg.setSentDate(new Date());
-		
+		//结束
+
 		return msg;
 	}
 
